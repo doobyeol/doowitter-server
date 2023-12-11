@@ -1,4 +1,4 @@
-package com.doobyeol.portfolio
+package com.doobyeol.doowitter
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
