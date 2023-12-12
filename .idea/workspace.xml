@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd758216-841a-47ad-8648-97da7790487e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/configuration/DatabaseConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/application/annotaions/ApiController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/application/api/article/ArticleController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/domain/article/ArticleService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/domain/article/dto/ArticleDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/infrastructure/database/article/entity/Article.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/infrastructure/database/article/repository/ArticleRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/infrastructure/database/common/entity/AuditingEntity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/portfolio/PortfolioApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/DoowitterApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/doobyeol/portfolio/PortfolioApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/doobyeol/doowitter/PortfolioApplicationTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,7 +62,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2ZObJfZfvg6v3QtKcTH4ePvm13N" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -69,24 +77,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dooby/doowitter/src/main/kotlin/com/doobyeol/doowitter",
+    "last_opened_file_path": "C:/Users/dooby/doowitter/src/main/kotlin/com/doobyeol/doowitter/infrastructure/database",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.general",
-    "spring.configuration.checksum": "8aed45ba784c48d250e204109ff457f3",
+    "spring.configuration.checksum": "31e2b01bc2c31d9493a803aefb004536",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dooby\doowitter\src\main\kotlin\com\doobyeol\doowitter\infrastructure\database" />
+      <recent name="C:\Users\dooby\doowitter\src\main\kotlin\com\doobyeol\doowitter\infrastructure\database\article" />
       <recent name="C:\Users\dooby\doowitter\src\main\kotlin\com\doobyeol\doowitter" />
       <recent name="C:\Users\dooby\doowitter\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.DoowitterApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="portfolio" />
       <method v="2">
@@ -144,7 +154,8 @@
       <workItem from="1702296003882" duration="5877000" />
       <workItem from="1702305405290" duration="425000" />
       <workItem from="1702312042959" duration="15000" />
-      <workItem from="1702312125727" duration="820000" />
+      <workItem from="1702312125727" duration="2081000" />
+      <workItem from="1702387259404" duration="6839000" />
     </task>
     <servers />
   </component>
