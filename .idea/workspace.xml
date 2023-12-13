@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd758216-841a-47ad-8648-97da7790487e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/application/annotaions/ApiController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/application/api/article/ArticleController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/domain/article/ArticleService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/domain/article/dto/ArticleDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/infrastructure/database/article/entity/Article.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/infrastructure/database/article/repository/ArticleRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/infrastructure/database/common/entity/AuditingEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/application/api/skill/SkillController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/domain/skill/SkillService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/domain/skill/dto/SkillDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/infrastructure/database/skill/entity/Skill.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/doobyeol/doowitter/infrastructure/database/skill/repository/SkillRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +75,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dooby/doowitter/src/main/kotlin/com/doobyeol/doowitter/infrastructure/database",
+    "last_opened_file_path": "C:/Users/dooby/doowitter/src/main/kotlin/com/doobyeol/doowitter/domain",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,10 +88,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dooby\doowitter\src\main\kotlin\com\doobyeol\doowitter\domain" />
       <recent name="C:\Users\dooby\doowitter\src\main\kotlin\com\doobyeol\doowitter\infrastructure\database" />
+      <recent name="C:\Users\dooby\doowitter\src\main\kotlin\com\doobyeol\doowitter\application\api" />
       <recent name="C:\Users\dooby\doowitter\src\main\kotlin\com\doobyeol\doowitter\infrastructure\database\article" />
       <recent name="C:\Users\dooby\doowitter\src\main\kotlin\com\doobyeol\doowitter" />
-      <recent name="C:\Users\dooby\doowitter\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DoowitterApplication">
@@ -156,6 +155,7 @@
       <workItem from="1702312042959" duration="15000" />
       <workItem from="1702312125727" duration="2081000" />
       <workItem from="1702387259404" duration="6839000" />
+      <workItem from="1702477247108" duration="2131000" />
     </task>
     <servers />
   </component>
