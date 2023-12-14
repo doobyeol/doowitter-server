@@ -1,5 +1,6 @@
 package com.doobyeol.doowitter.domain.skill
 
+import com.doobyeol.doowitter.common.constants.YN
 import com.doobyeol.doowitter.domain.skill.dto.SkillDto
 import com.doobyeol.doowitter.infrastructure.database.skill.repository.SkillRepository
 import org.springframework.stereotype.Service
@@ -9,7 +10,7 @@ class SkillService(
     val skillRepository: SkillRepository
 ) {
     fun findSkills(): List<SkillDto> {
-        val skills = skillRepository.findAllByUseYn("Y")
+        val skills = skillRepository.findAllByUseYn(YN.Y)
         return skills.map {
             SkillDto(
                 skillId = it.skillId,

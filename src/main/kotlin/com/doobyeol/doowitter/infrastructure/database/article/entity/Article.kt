@@ -1,10 +1,8 @@
 package com.doobyeol.doowitter.infrastructure.database.article.entity
 
+import com.doobyeol.doowitter.common.constants.YN
 import com.doobyeol.doowitter.infrastructure.database.common.entity.AuditingEntity
-import javax.persistence.Column
-import javax.persistence.Entity
-import javax.persistence.Id
-import javax.persistence.Table
+import javax.persistence.*
 
 @Table(name = "article")
 @Entity
@@ -29,5 +27,6 @@ class Article(
     var fixYn: String,
 
     @Column(name = "use_yn")
-    var useYn: String,
+    @Enumerated(EnumType.STRING)
+    var useYn: YN,
 ) : AuditingEntity()

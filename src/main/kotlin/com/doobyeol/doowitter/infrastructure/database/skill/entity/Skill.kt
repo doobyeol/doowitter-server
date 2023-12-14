@@ -1,10 +1,8 @@
 package com.doobyeol.doowitter.infrastructure.database.skill.entity
 
+import com.doobyeol.doowitter.common.constants.YN
 import com.doobyeol.doowitter.infrastructure.database.common.entity.AuditingEntity
-import javax.persistence.Column
-import javax.persistence.Entity
-import javax.persistence.Id
-import javax.persistence.Table
+import javax.persistence.*
 
 @Table(name = "skill")
 @Entity
@@ -23,5 +21,6 @@ class Skill(
     var logoUrl: String?,
 
     @Column(name = "use_yn")
-    var useYn: String,
+    @Enumerated(EnumType.STRING)
+    var useYn: YN,
 ) : AuditingEntity()
